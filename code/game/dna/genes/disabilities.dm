@@ -21,7 +21,7 @@
 	// Activation message
 	var/activation_message=""
 
-	// Yay, you're no longer growing 3 arms
+	// Ура, у тебя не растёт третья рука!
 	var/deactivation_message=""
 
 /datum/dna/gene/disability/can_activate(var/mob/M,var/flags)
@@ -53,8 +53,8 @@
 
 /datum/dna/gene/disability/hallucinate
 	name="Hallucinate"
-	activation_message="Your mind says 'Hello'."
-	deactivation_message ="Sanity returns. Or does it?"
+	activation_message="Разум говорит тебе "КУКУСИКИ""
+	deactivation_message ="Разум вернулся... Или нет?"
 	mutation=HALLUCINATE
 
 	New()
@@ -62,8 +62,8 @@
 
 /datum/dna/gene/disability/epilepsy
 	name="Epilepsy"
-	activation_message="You get a headache."
-	deactivation_message ="Your headache is gone, at last."
+	activation_message="Голова болит..."
+	deactivation_message ="Головная боль прошла, наконец-то"
 	disability=EPILEPSY
 
 	New()
@@ -71,8 +71,8 @@
 
 /datum/dna/gene/disability/cough
 	name="Coughing"
-	activation_message="You start coughing."
-	deactivation_message ="Your throat stops aching."
+	activation_message="Глотка чешется."
+	deactivation_message ="Глотка перестает чесаться."
 	disability=COUGHING
 
 	New()
@@ -80,8 +80,8 @@
 
 /datum/dna/gene/disability/clumsy
 	name="Clumsiness"
-	activation_message="You feel lightheaded."
-	deactivation_message ="You regain some control of your movements"
+	activation_message="У тебя появилось чувство неуклюжести."
+	deactivation_message ="У тебя вернулся контроль к твоим движениям"
 	mutation=CLUMSY
 
 	New()
@@ -89,8 +89,8 @@
 
 /datum/dna/gene/disability/tourettes
 	name="Tourettes"
-	activation_message="You twitch."
-	deactivation_message ="Your mouth tastes like soap."
+	activation_message="Ты трясешься."
+	deactivation_message ="Как-будто язык мылом отмыли"
 	disability=TOURETTES
 
 	New()
@@ -98,8 +98,8 @@
 
 /datum/dna/gene/disability/nervousness
 	name="Nervousness"
-	activation_message="You feel nervous."
-	deactivation_message ="You feel much calmer."
+	activation_message="Ты нервничаешь."
+	deactivation_message ="Ты чувствуешь себя гораздо спокойнее."
 	disability=NERVOUS
 
 	New()
@@ -107,8 +107,8 @@
 
 /datum/dna/gene/disability/blindness
 	name="Blindness"
-	activation_message="You can't seem to see anything."
-	deactivation_message ="You can see now, in case you didn't notice..."
+	activation_message="Кажется, ты ослеп."
+	deactivation_message ="Теперь ты можешь видеть, если ты ещё не заметил..."
 	sdisability=BLIND
 
 	New()
@@ -116,8 +116,8 @@
 
 /datum/dna/gene/disability/deaf
 	name="Deafness"
-	activation_message="It's kinda quiet."
-	deactivation_message ="You can hear again!"
+	activation_message="Стало как-то тихо."
+	deactivation_message ="Ты снова можешь видеть!"
 	sdisability=DEAF
 
 	New()
@@ -129,8 +129,8 @@
 
 /datum/dna/gene/disability/nearsighted
 	name="Nearsightedness"
-	activation_message="Your eyes feel weird..."
-	deactivation_message ="You can see clearly now"
+	activation_message="С твоими глазами что-то не так..."
+	deactivation_message ="Зрение снова стало нормальным."
 	disability=NEARSIGHTED
 
 	New()
@@ -139,9 +139,9 @@
 
 /datum/dna/gene/disability/lisp
 	name = "Lisp"
-	desc = "I wonder wath thith doeth."
-	activation_message = "Thomething doethn't feel right."
-	deactivation_message = "You now feel able to pronounce consonants."
+	desc = "Интерфна, фто ето делает."
+	activation_message = "Фто-то яфно не так."
+	deactivation_message = "Ты снова можешь нормально говорить."
 	mutation = LISP
 
 	New()
@@ -153,9 +153,9 @@
 
 /datum/dna/gene/disability/comic
 	name = "Comic"
-	desc = "This will only bring death and destruction."
-	activation_message = "<span class='sans'>Uh oh!</span>"
-	deactivation_message = "Well thank god that's over with."
+	desc = "Это принесёт только смерть и разрушения."
+	activation_message = "<span class='sans'>Ой-Ой!</span>"
+	deactivation_message = "Хвала Аллаху, это закончилось."
 	mutation=COMIC
 
 	New()
